@@ -7,5 +7,6 @@ http.createServer(function(request, response) {
     response.write("Hello OpenShift!\n");
     response.write("The Pod IP is: " + ip.address() + "\n");
     response.write("The Pod hostname is: " + os.hostname());
+    response.write("this is a demo");
     response.end();
 }).listen(8080);

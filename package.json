@@ -4,7 +4,7 @@
   "description": "Simple NodeJS app on OpenShift 3.6",
   "main": "server.js",
   "dependencies": {
-    "ip": "^1.1.5",
+    "ip": "^1.1.9",
     "os": "^0.1.1"
   },
   "engine": {
